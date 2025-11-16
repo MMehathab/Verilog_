@@ -18,6 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
+// FSM to check the recieved bits is divisibility  by 3
 module test(input clk,rst,x, output reg y);
 reg [1:0]ps,ns;
 parameter s0=2'b00,s1=2'b01,s2=2'b10;
